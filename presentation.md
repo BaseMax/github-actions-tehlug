@@ -7,22 +7,35 @@ colorPreset: dark
 footer: Tehran Lug 2/27/2025
 ---
 
-![bg left:40% 80%](logo.png)
+![bg left:30% 70%](logo.png)
 
 # **Magic of GitHub Actions: Automating Tasks**
-Seyyed Ali Mohammadiyeh
 
-Open-source Maintainer, GitHub
+<!-- Seyyed Ali Mohammadiyeh -->
+<!-- (MAX BASE) -->
 
-Tehran Lug - 26 Feb 2027
+Tehran Lug - 27 Feb 2027
 
 ---
 
-# **About the Speaker**
+# **About me**
 
 **Seyyed Ali Mohammadiyeh (Max Base)**
 
-- **Role**: Open-source Maintainer at GitHub
+Open-source Maintainer, GitHub
+Software Engineer
+CTO, asrez
+<!-- Department of Pure Mathematics, Faculty of Mathematical Sciences, University of Kashan -->
+
+maxbasecode@gmail.com
+<!-- alim@kashanu.ac.ir -->
+
+---
+
+# **About me**
+
+**Seyyed Ali Mohammadiyeh (Max Base)**
+
 - **GitHub**: [https://github.com/basemax](https://github.com/basemax)
 - **Experience**: Over 10 years in software development and programming
 - **Background**: Pure-mathematics and applied mathematics, with research experience
@@ -32,7 +45,6 @@ Tehran Lug - 26 Feb 2027
 # **What is GitHub Actions?**
 - A CI/CD service by GitHub
 - Automates workflows directly in GitHub repositories
-- Runs on GitHub-hosted or self-hosted runners
 
 ---
 
@@ -220,19 +232,62 @@ jobs:
 ---
 
 # **Real-World Examples**
-- **Automated Testing**: Run unit tests before merging PRs
-- **Static Analysis**: Linting and security scans
-- **Deployment**: Push Docker images, deploy web apps
+
+1) https://github.com/BaseMax/React-Auto-Build-GitHub-Actions
+2) https://github.com/BaseMax/github-actions-nextjs-build-deploy
+3) https://github.com/BaseMax/AndroidAutoBuildAPK
+4) https://github.com/BaseMax/GitHubAction-Jekyll-SFTP-Deploy-Password
+5) https://github.com/BaseMax/GitHubAction-SFTP-Deploy-Password
+6) https://github.com/BaseMax/AutoInviteToOrgByIssueComment
 
 ---
 
-# **Conclusion**
-- GitHub Actions simplifies automation
-- CI/CD improves software quality and deployment speed
-- Self-hosted runners enable custom workflows
+# **Real-World Examples**
+
+7) https://github.com/BaseMax/AutoInviteToOrgByStar
+8) https://github.com/BaseMax/github-actions-cpanel-php-ftp
+9) https://github.com/BaseMax/github-actions-compile-golang
+10) https://github.com/BaseMax/github-actions-compile-c
+11) https://github.com/BaseMax/github-actions-update-push
+12) https://github.com/BaseMax/github-actions-create-tag
+
+---
+
+# **Real-World Examples**
+
+13) https://github.com/BaseMax/github-actions-upload-temp-file
+14) https://github.com/BaseMax/github-actions-create-release
+15) https://github.com/BaseMax/github-actions-monitor-issues
+16) https://github.com/BaseMax/github-actions-run-docker-compose
+17) https://github.com/BaseMax/github-actions-run-dockerfile
+18) https://github.com/BaseMax/github-actions-compile-rust
+
+---
+
+# **Real-World Examples**
+
+19) https://github.com/BaseMax/github-actions-react-deploy-tailwindcss-sftp
+20) https://github.com/BaseMax/github-actions-react-deploy-linux-sftp
+21) https://github.com/BaseMax/github-actions-react-build-linux-sftp
+22) https://github.com/BaseMax/github-actions-file-linux-ssh-sftp
+
+---
+
+# **Cool builds**
+
+| ![](coffee.jpg) | ![](wireless-coffee.jpg) |
+|-----------------|--------------------------|
+
+[Using GitHub Actions to Brew Coffee](https://hackaday.com/2022/12/10/using-github-actions-to-brew-coffee/)
+[Hacking Bluetooth to Brew Coffee on GitHub Actions Part 1](https://grack.com/blog/2022/12/01/hacking-bluetooth-to-brew-coffee-on-github-actions-part-1/)
 
 ---
 
 # **Q&A**
 Let's discuss! 🚀
 
+maxbasecode@gmail.com
+
+github.com/basemax
+
+t.me/MAX_BASE
