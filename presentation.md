@@ -1,20 +1,31 @@
 ---
 theme: gaia
-_class: lead
 paginate: true
-backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundColor: #000
+color: #fff
+colorPreset: dark
+footer: Tehran Lug 2/27/2025
 ---
 
-![bg left:40% 80%](https://marp.app/assets/marp.svg)
+![bg left:40% 80%](logo.png)
 
 # **Magic of GitHub Actions: Automating Tasks**
+Seyyed Ali Mohammadiyeh
 
 Open-source Maintainer, GitHub
 
 Tehran Lug - 26 Feb 2027
 
-https://github.com/basemax
+---
+
+# **About the Speaker**
+
+**Seyyed Ali Mohammadiyeh (Max Base)**
+
+- **Role**: Open-source Maintainer at GitHub
+- **GitHub**: [https://github.com/basemax](https://github.com/basemax)
+- **Experience**: Over 10 years in software development and programming
+- **Background**: Pure-mathematics and applied mathematics, with research experience
 
 ---
 
