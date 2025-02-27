@@ -6,7 +6,8 @@ You can explore the presentation below and use it as a reference for learning ab
 
 ## Presentation Overview
 
-### Topics Covered:
+### Topics Covered
+
 - What is GitHub Actions?
 - Why use GitHub Actions?
 - Understanding CI/CD
@@ -19,14 +20,16 @@ You can explore the presentation below and use it as a reference for learning ab
 - Advanced Workflow Features
 - Best Practices for Security and Monitoring
 
-### GitHub Actions Features Discussed:
+### GitHub Actions Features Discussed
+
 - Automating testing, deployment, and other tasks
 - Handling multiple environments with matrix builds
 - Using secrets and environment variables securely
 - Self-hosted runners vs GitHub-hosted runners
 - Integration with various CI/CD tools
 
-### Cool & Fun Examples:
+### Cool & Fun Examples
+
 - Automating coffee brewing with GitHub Actions
 - Real-world examples like auto-deploying apps, running tests, and automating documentation
 
@@ -36,9 +39,12 @@ You can explore the presentation below and use it as a reference for learning ab
 - **Resources**: Links to related GitHub repositories, articles, and real-world use cases.
 - **Examples**: YAML snippets and sample configurations for setting up GitHub Actions workflows.
 
-### Key Links:
-- [GitHub Actions Docs](https://docs.github.com/en/actions)
-- [GitHub Actions in Action (Book)](https://www.manning.com/books/github-actions-in-action)
+### Links
+
+- https://docs.github.com/en/actions
+- https://www.manning.com/books/github-actions-in-action
+- https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions
+- https://github.com/actions/checkout
 
 ## About Me
 
