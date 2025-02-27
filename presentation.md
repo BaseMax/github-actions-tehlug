@@ -74,10 +74,10 @@ Automate your workflow from idea to production
 
 # **Components of GitHub Actions**
 - **Workflows**: Define automation process
-- **Events**: Triggers for workflows (push, pull request, etc.)
-- **Jobs**: Tasks running in parallel or sequentially
-- **Steps**: Individual commands within a job
-- **Actions**: Pre-built or custom scripts
+  - **Events**: Triggers for workflows (push, pull request, etc.)
+  - **Jobs**: Tasks running in parallel or sequentially
+  - **Steps**: Individual commands within a job
+  - **Actions**: Pre-built or custom scripts
 
 ---
 
