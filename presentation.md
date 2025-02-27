@@ -46,8 +46,6 @@ maxbasecode@gmail.com
 - A CI/CD service by GitHub
 - Automates workflows directly in GitHub repositories
 
----
-
 # **Why Use GitHub Actions?**
 - Automates testing, deployment, and workflows
 - Reduces manual work
@@ -57,7 +55,7 @@ maxbasecode@gmail.com
 
 # **What is CI/CD?**
 - CI (Continuous Integration): Merging code frequently & running tests automatically
-- CD (Continuous Deployment/Delivery): Automatically deploying tested code to production
+- CD (Continuous Deployment/Delivery): Automatically deploying tested code to development/production/server
 
 ---
 
@@ -68,18 +66,9 @@ maxbasecode@gmail.com
 
 ---
 
-# **What is a Pipeline?**
-- A sequence of automated steps
-- Includes build, test, and deployment stages
-- Can be customized as per project needs
+# **GitHub Actions != CI/CD**
 
----
-
-# **How Does a CI/CD Pipeline Work?**
-1. Developer pushes code
-2. Automated tests run
-3. Code is built and packaged
-4. Deployment is triggered (if applicable)
+Automate your workflow from idea to production
 
 ---
 
@@ -100,7 +89,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Run a script
         run: echo "Hello, GitHub Actions!"
 ```
@@ -117,7 +106,7 @@ jobs:
 
 # **Understanding Jobs**
 - A workflow can have multiple jobs
-- Jobs can run in parallel or sequentially
+- Jobs can run in parallel or sequentially (`needs`)
 - Example:
 ```yaml
 jobs:
@@ -134,31 +123,6 @@ jobs:
 
 ---
 
-# **What are GitHub Runners?**
-- Machines that execute workflows
-- Two types:
-  - **GitHub-hosted** (Linux, macOS, Windows)
-  - **Self-hosted** (Custom machine or cloud server)
-
----
-
-# **How to Create a Self-hosted Runner**
-1. Go to GitHub repository settings
-2. Navigate to `Actions` > `Runners`
-3. Download and configure the runner
-4. Start the runner and register it with GitHub
-
----
-
-# **Example Use Cases**
-- Running automated tests
-- Deploying applications
-- Sending notifications (Slack, Email)
-- Automating documentation generation
-- Running security scans
-
----
-
 # **Deploying with GitHub Actions**
 - Example deployment job:
 ```yaml
@@ -170,7 +134,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: ./deploy.sh
 ```
 
@@ -231,6 +195,109 @@ jobs:
 
 ---
 
+# **What are GitHub Runners?**
+- Machines that execute workflows
+- Two types:
+  - **GitHub-hosted** (Linux, macOS, Windows)
+  - **Self-hosted** (Custom machine or cloud server)
+
+---
+
+# **How to Create a Self-hosted Runner**
+1. Go to GitHub repository settings
+2. Navigate to `Actions` > `Runners`
+3. Download and configure the runner
+4. Start the runner and register it with GitHub
+
+---
+
+# **Example Use Cases**
+- Running automated tests
+- Deploying applications
+- Deploy Previews for Every Pull Request
+
+???
+
+---
+
+# **Example Use Cases**
+- Automated UI Demo Creation (GIFs & Videos)
+- Auto-Generate Custom Avatars for Users
+- Automated Web Scraping and Data Collection
+- Auto-Sync Forked Repositories
+- Run Auto-Refactoring Scripts
+- Auto-update Dependencies Across Multiple Repositories
+
+---
+
+# **Example Use Cases**
+- Automate Image Optimization
+- Run Custom AI/ML Model Inference
+- Check for Broken Links in Documentation
+- Generate Graphs and Analytics
+- Detect Duplicate Code and Generate Reports
+- Enforce Coding Standards
+
+---
+
+# **Example Use Cases**
+- Run Code Quality Analysis on Each Pull Request
+- Monitor and Report Code Vulnerabilities
+- Automated Feature Flag Management
+- Create or Update GitHub Pages Automatically
+- Deploy to Multi-Cloud Environments
+- Run Stress Tests on the Codebase
+
+---
+
+# **Example Use Cases**
+- Create a Performance Benchmarking Pipeline
+- Automated Merge Conflict Detection
+- Personalized Onboarding for New Contributors
+- Convert Documentation to Different Formats
+- Sending notifications (Slack, Email)
+- Trigger a Workflow on a Specific Day or Time
+
+---
+
+# **Example Use Cases**
+- Trigger Auto-Deploys Based on Custom Labels
+- Automating documentation generation
+- Enforce Versioning Standards
+- Automate Software Licensing Checks
+- Auto-generate Release Notes
+- Run Cryptocurrency or Blockchain-related Jobs
+
+---
+
+# **Example Use Cases**
+- Running security scans
+- Auto release Android(apk) and iOS release
+
+---
+
+# **GitHub Actions != CI/CD**
+
+Automate your workflow from idea to production
+
+---
+
+# **Brew Coffee by GitHub Actions**
+
+Brew a coffee as a gift once the official developers of the project make a successful, error-free commit.
+
+---
+
+# **Cool builds**
+
+| ![](coffee.jpg) | ![](wireless-coffee.jpg) |
+|-----------------|--------------------------|
+
+[Using GitHub Actions to Brew Coffee](https://hackaday.com/2022/12/10/using-github-actions-to-brew-coffee/)
+[Hacking Bluetooth to Brew Coffee on GitHub Actions Part 1](https://grack.com/blog/2022/12/01/hacking-bluetooth-to-brew-coffee-on-github-actions-part-1/)
+
+---
+
 # **Real-World Examples**
 
 1) https://github.com/BaseMax/React-Auto-Build-GitHub-Actions
@@ -270,16 +337,6 @@ jobs:
 20) https://github.com/BaseMax/github-actions-react-deploy-linux-sftp
 21) https://github.com/BaseMax/github-actions-react-build-linux-sftp
 22) https://github.com/BaseMax/github-actions-file-linux-ssh-sftp
-
----
-
-# **Cool builds**
-
-| ![](coffee.jpg) | ![](wireless-coffee.jpg) |
-|-----------------|--------------------------|
-
-[Using GitHub Actions to Brew Coffee](https://hackaday.com/2022/12/10/using-github-actions-to-brew-coffee/)
-[Hacking Bluetooth to Brew Coffee on GitHub Actions Part 1](https://grack.com/blog/2022/12/01/hacking-bluetooth-to-brew-coffee-on-github-actions-part-1/)
 
 ---
 
