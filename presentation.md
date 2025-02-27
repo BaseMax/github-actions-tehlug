@@ -14,6 +14,8 @@ footer: Tehran Lug 2/27/2025
 <!-- Seyyed Ali Mohammadiyeh -->
 <!-- (MAX BASE) -->
 
+Seyyed Ali Mohammadiyeh (Max Base)
+
 Tehran Lug - 27 Feb 2027
 
 ---
@@ -343,8 +345,12 @@ Brew a coffee as a gift once the official developers of the project make a succe
 # **Q&A**
 Let's discuss! 🚀
 
-maxbasecode@gmail.com
+**Repository:** github.com/BaseMax/github-actions-tehlug
 
-github.com/basemax
+<!-- **GitHub:** github.com/basemax -->
 
-t.me/MAX_BASE
+**Linkedin:** linkedin.com/in/maxbase
+
+**Email:** maxbasecode@gmail.com
+
+**Telegram:** t.me/MAX_BASE
