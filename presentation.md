@@ -278,7 +278,7 @@ jobs:
 
 # **GitHub Actions != CI/CD**
 
-Automate your workflow from idea to production
+GitHub Actions is often viewed primarily as a CI/CD tool, It can automate all sorts of tasks throughout the software development lifecycle, from ideation to production and even beyond.
 
 ---
 
